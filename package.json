@@ -1,0 +1,25 @@
+{
+    "name": "livepool",
+    "version": "0.0.1",
+    "description": "debugging proxy for web developers base on NodeJS",
+    "keywords": ["proxy", "debug", "web", "develop", "reload", "fiddler"],
+    "maintainers": [
+        {"name": "rehorn", "web": "https://github.com/rehorn"}
+    ],
+    "homepage": "https://github.com/rehorn/livepool",
+    "dependencies": {
+    },
+    "devDependencies": {
+        "node-inspector": "0.1.10"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rehorn/livepool.git"
+    },
+    "engines": {"node": ">= 0.6.x"},
+    "bugs": {"url": "https://github.com/rehorn/livepool/issues"},
+    "bin": {
+        "mod": "./bin/livepool"
+    },
+    "preferGlobal": true
+}
