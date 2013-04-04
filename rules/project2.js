@@ -2,7 +2,7 @@ module.exports = {
     name: "project2",
     index: 0,
     enabled: 1,
-    base: "E:\connect\bapp\widget_trunk\web\chat\src",
+    base: "E:/connect/bapp/widget_trunk/web/chat/src",
     // host: "*find.qq.com pub.idqqimg.cn",
     // handleAll: 0
     handler: [{

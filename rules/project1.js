@@ -2,11 +2,9 @@ module.exports = {
     name: "project1",
     index: 0,
     enabled: 1,
-    base: "E:/connect/bapp/widget_trunk/web/chat/src",
-    // host: "*chat.qq.com *.url.cn",
-    // handleAll: 0,
+    base: "E:/Server/Node/livepool/test/examples",
     handler: [{
-        match: "chat.qq.com",
+        match: "examples.com",
         action: "./",
         enabled: 1
     }, {
