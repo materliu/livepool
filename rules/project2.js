@@ -3,10 +3,8 @@ module.exports = {
     index: 0,
     enabled: 1,
     base: "E:/connect/bapp/widget_trunk/web/chat/src",
-    // host: "*find.qq.com pub.idqqimg.cn",
-    // handleAll: 0
     handler: [{
-        match: "find.qq.com/ pub.idqqimg.cn/",
+        match: "chat.qq.com/ *.url.cn/chat/",
         action: "./",
         enabled: 1
     }],
