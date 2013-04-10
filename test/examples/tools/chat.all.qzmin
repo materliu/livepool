@@ -1,0 +1,17 @@
+﻿{
+    projects: [
+        {
+            name: "Jx Custom Version for Q+ Explorer",
+            target: "./chat.all.js",
+            include: [
+                '../js/jquery.js',
+                '../js/main.js',
+                '../js/sub.js'
+            ]
+        }
+    ],
+    level: 0,
+    shrink: false,
+    encode: "utf-8",
+    comment: "Q+ Group 2010"
+}
