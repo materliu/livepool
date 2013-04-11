@@ -1,36 +1,27 @@
 module.exports = {
     name: "project2",
-    index: 0,
-    enabled: 1,
-    base: "E:/connect/bapp/widget_trunk/web/chat/src/",
+    base: "E:/connect/bapp/qqfind_v2/",
     handler: [{
-        match: "chat.qq.com/index.html",
-        action: "./__index.html",
-        enabled: 1
+        match: "find.qq.com/index.html",
+        action: "./__index.html"
     }, {
-        match: "chat.qq.com/js/chat.all.js",
-        action: "./tools/chat.all.qzmin",
-        enabled: 1
+        match: "find.qq.com/js/find.all.js",
+        action: "./tools/find.all.js.qzmin"
     }, {
-        match: "chat.qq.com/css/main.css",
-        action: ["./css/sub1.css", "./css/sub2.css"],
-        enabled: 1
+        match: "find.qq.com/css/comp.css",
+        action: ["./css/loading.css", "./css/tab.css"]
     }, {
-        match: "chat.qq.com/css/remote.css",
-        action: "http://chat.qq.com/css/remote2.css",
-        enabled: 1
+        match: "find.qq.com/js/catalog.js",
+        action: "http://pub.idqqimg.com/qqfind/js/groupcatalog.js"
     }, {
-        match: "chat.qq.com/ *.url.cn/chat/",
-        action: "./",
-        enabled: 1
+        match: "find.qq.com/ *.idqqimg.com/qqfind/",
+        action: "./"
     }],
     router: [{
-        match: "chat.qq.com/cgi-bin/ srv.chat.qq.com",
-        action: "-",
-        enabled: 1
+        match: "find.qq.com/cgi-bin/ cgi.find.qq.com",
+        action: "-"
     }, {
-        match: "chat.qq.com",
-        action: "172.23.136.86",
-        enabled: 1
+        match: "find.qq.com idqqimg.com/qqfind/",
+        action: "172.23.136.84"
     }]
 };
