@@ -2,7 +2,7 @@ module.exports = {
     name: "project1",
     // index: 0, // default is 0
     // enabled: 1, // default is 1
-    base: "E:/Server/Node/livepool/test/examples/",
+    base: "E:/git/livepool/test/examples/",
     handler: [{
         // test => http://www.livepool.com/index.html
         match: "www.livepool.com/index.html",
