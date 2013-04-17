@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Live Pool Client App</title>
+    <link rel="stylesheet" type="text/css" href="vendor/extjs4/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="css/liveapp.css" />
 </head>
 <body>
-    Live Pool Client App
-    <script src="/socket.io/socket.io.js"></script>
+        
+    <script type="text/javascript" src="vendor/extjs4/ext-all.js"></script>
+    <script type="text/javascript" src="js/liveapp.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script>
     <script>
-    io = io.connect()
+    io = io.connect();
     // Emit ready event.
     io.emit('ready');
     // Listen for the talk event.
     io.on('talk', function(data) {
         alert(data.message)
     })
-    </script>
+    </script> -->
 </body>
 </html>
