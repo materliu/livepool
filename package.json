@@ -8,9 +8,12 @@
     ],
     "homepage": "https://github.com/rehorn/livepool",
     "dependencies": {
-    },
-    "devDependencies": {
-        "node-inspector": "0.1.10"
+        "colors": "*",
+        "express.io": "*",
+        "http-proxy": "*",
+        "mime": "*",
+        "express.io": "*",
+        "underscore": "*"
     },
     "repository": {
         "type": "git",
