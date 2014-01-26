@@ -12,8 +12,8 @@
         "express.io": "*",
         "http-proxy": "*",
         "mime": "*",
-        "express.io": "*",
-        "underscore": "*"
+        "underscore": "*",
+	"ejs": "*"
     },
     "repository": {
         "type": "git",
