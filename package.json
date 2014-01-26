@@ -13,10 +13,7 @@
         "http-proxy": "*",
         "mime": "*",
         "underscore": "*",
-	"ejs": "*"
-    },
-    "devDependencies": {
-        "nodemon": "*"
+	    "ejs": "*"
     },
     "repository": {
         "type": "git",

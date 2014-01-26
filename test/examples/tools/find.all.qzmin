@@ -2,7 +2,7 @@
     projects: [
         {
             name: "Jx Custom Version for Q+ Explorer",
-            target: "./chat.all.js",
+            target: "./find.all.js",
             include: [
                 '../js/jquery.js',
                 '../js/main.js',
