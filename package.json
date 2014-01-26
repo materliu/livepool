@@ -15,6 +15,9 @@
         "underscore": "*",
 	"ejs": "*"
     },
+    "devDependencies": {
+        "nodemon": "*"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/rehorn/livepool.git"
