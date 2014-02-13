@@ -13,7 +13,9 @@
         "http-proxy": "*",
         "mime": "*",
         "underscore": "*",
-	    "ejs": "*"
+	    "ejs": "*",
+        "connect": "*",
+        "request": "*"
     },
     "repository": {
         "type": "git",
