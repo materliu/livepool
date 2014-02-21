@@ -15,7 +15,10 @@
         "underscore": "*",
 	    "ejs": "*",
         "connect": "*",
-        "request": "*"
+        "bufferhelper": "*",
+        "request": "*",
+        "graceful-fs" : "*",
+        "rimraf" : "*"
     },
     "repository": {
         "type": "git",
@@ -26,5 +29,6 @@
     "bin": {
         "mod": "./bin/livepool"
     },
-    "preferGlobal": true
+    "preferGlobal": true,
+    "main": "http://127.0.0.1:8002"
 }
