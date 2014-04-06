@@ -12,7 +12,6 @@ pre-alpha
 - 便捷的 UI 界面，跟 Fiddler 类似，降低学习成本
 - 支持 HTTP 抓包，后续陆续支持 HTTPS, WebSockets
 - 支持本地替换，HOST 配置，配置方便，替换规则强大，支持扩展
-- 
 
 ## 安装
 - 先安装 nodejs, 参考官网 http://nodejs.org
