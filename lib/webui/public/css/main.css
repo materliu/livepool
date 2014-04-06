@@ -1,3 +1,21 @@
-.tran-background{
+body {
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.tran-background {
     background-image: url(../img/tbg.jpg);
+}
+#mainContainer-body, #resPanel-body, #reqPanel-body {
+    border: 0 !important;
+}
+.x-grid-record-gray {
+    /*background: #FF0000;*/
+    color: #888;
+}
+.x-grid-record-green {
+    /*background: #FF0000;*/
+    color: #2ECC40;
+}
+.x-grid-record-red {
+    /*background: #FF0000;*/
+    color: #FF4136;
 }
