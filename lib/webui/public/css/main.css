@@ -19,3 +19,8 @@ body {
     /*background: #FF0000;*/
     color: #FF4136;
 }
+.x-action-col-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+}

@@ -6030,10 +6030,10 @@ svg, vml {
   right: 3px; }
 
 .x-dd-drop-ok .x-dd-drop-icon {
-  background-image: url('../../themes/images/azzurra/dd/drop-yes'); }
+  background-image: url('../../themes/images/azzurra/dd/drop-yes.gif'); }
 
 .x-dd-drop-ok-add .x-dd-drop-icon {
-  background-image: url('../../themes/images/azzurra/dd/drop-add'); }
+  background-image: url('../../themes/images/azzurra/dd/drop-add.gif'); }
 
 .x-dd-drop-nodrop div.x-dd-drop-icon {
-  background-image: url('../../themes/images/azzurra/dd/drop-no'); }
+  background-image: url('../../themes/images/azzurra/dd/drop-no.gif'); }

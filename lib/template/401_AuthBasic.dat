@@ -3,5 +3,6 @@ FiddlerTemplate: True
 WWW-Authenticate: Basic realm="Fiddler"
 Content-Type: text/html
 Content-Length: 520
+Server: LivePool
 
 Fiddler: HTTP/401 Basic Server Auth Required.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

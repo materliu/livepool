@@ -2,5 +2,6 @@ HTTP/1.1 502 Unreachable Server
 FiddlerTemplate: True
 Content-Type: text/html
 Content-Length: 520
+Server: LivePool
 
-Fiddler: HTTP/502 unreachable server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+LivePool: HTTP/502 unreachable server.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
