@@ -1,7 +1,9 @@
 // module.exports = {
 //     name: "project1",
-//     // index: 0, // default is 0
+//     // sort: 0, // default is 0
 //     // enabled: 1, // default is 1
+//     // match: 1, // default is 1
+//     // svn: 1, // default is 1
 //     base: "E:/git/livepool/test/examples/",
 //     handler: [{
 //         // test => http://www.livepool.com/index.html

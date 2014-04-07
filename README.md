@@ -38,9 +38,10 @@ node livepool.js
 ## 测试
 
 ## TODO
-- 完善项目管理、本地替换管理界面 Pool tab
+- 完善[项目管理]、本地替换管理界面 Pool tab
 - 完善细节，如果行高亮，颜色区分
-- 完善Composer，组包调试界面
+- 增加 [CGI 数据模拟替换]，减少开发过程对后台联调依赖
+- 完善[Composer组包调试]界面
 - 支持插件化
 - 完善其他功能：低网速模拟，Session保存到本地等
 - LiveReload、AlloyDesinger集成，
