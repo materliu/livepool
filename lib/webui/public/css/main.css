@@ -12,11 +12,9 @@ body {
     color: #888;
 }
 .x-grid-record-green {
-    /*background: #FF0000;*/
     color: #2ECC40;
 }
 .x-grid-record-red {
-    /*background: #FF0000;*/
     color: #FF4136;
 }
 .x-action-col-icon {
