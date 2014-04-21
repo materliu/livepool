@@ -1,6 +1,6 @@
 {
     "name": "livepool",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "debugging proxy for web developers base on NodeJS",
     "keywords": ["proxy", "debug", "web", "develop", "reload", "fiddler"],
     "maintainers": [{
@@ -32,5 +32,20 @@
         "mod": "./bin/livepool"
     },
     "preferGlobal": true,
-    "main": "http://127.0.0.1:8002"
+    "main": "node-webkit.html",
+    "webkit": {
+        "plugin": true
+    },
+    "window": {
+        "title": "livepool ui",
+        "icon": "link.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 960,
+        "height": 600,
+        "position": "mouse",
+        "min_width": 400,
+        "min_height": 200
+    },
+    "node-main": "./node-webkit.js"
 }

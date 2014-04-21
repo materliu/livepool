@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Starting LivePool...</title>
+</head>
+
+<body>
+    <div id="tips">Starting LivePool...</div>
+    <script>
+    // var gui = require('nw.gui');
+    // var proxy = require('./lib/livepool/proxy');
+
+    // var win = gui.Window.get();
+    // win.on('load', function() {
+    //     win.maximize();
+    // });
+    // win.on('close', function() {
+    //     this.hide();
+    //     var self = this;
+    //     proxy.initProxy(function() {
+    //         self.close(true);
+    //     });
+    // });
+
+    // win.on("closed", function() {
+    //     win = null;
+    // })
+
+    // win.on('minimize', function() {
+    //     this.hide();
+
+    //     tray = new gui.Tray({
+    //         icon: 'lib/webui/public/img/stackoverflow.png'
+    //     })
+
+    //     tray.on('click', function(e) {
+    //         win.show();
+    //         this.remove();
+    //         tray = null;
+    //     });
+    // });
+
+    var http = require('http');
+    var runner = null;
+
+    function checkUI() {
+        http.get('http://127.0.0.1:8002/js/underscore.js?t' + (new Date()).getTime(), function(res) {
+            if (res.statusCode == 200) {
+                clearInterval(runner);
+                location.href = 'http://127.0.0.1:8002';
+                // document.getElementById('main').src = 'http://127.0.0.1:8002';
+            }
+        }).on('error', function(e) {});
+    };
+    runner = setInterval(checkUI, 100);
+    </script>
+</body>
+
+</html>
