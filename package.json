@@ -9,14 +9,18 @@
     }],
     "homepage": "https://github.com/rehorn/livepool",
     "dependencies": {
-        "mime": "*",
         "colors": "*",
+        "mime": "*",
+        "rimraf": "*",
         "underscore": "*",
         "iconv-lite": "*",
         "express.io": "*",
         "http-proxy": "*",
         "graceful-fs": "*",
-        "rimraf": "*"
+        "request": "*",
+        "http-proxy-agent": "*",
+        "https-proxy-agent": "*",
+        "socks-proxy-agent": "*"
     },
     "repository": {
         "type": "git",
