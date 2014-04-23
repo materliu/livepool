@@ -53,7 +53,7 @@ module.exports={
                         }
                     ],
                     "id": 2,
-                    "checked": true,
+                    "checked": false,
                     "match": "",
                     "action": ""
                 },
@@ -66,26 +66,26 @@ module.exports={
                             "action": "-",
                             "leaf": true,
                             "id": 11,
-                            "checked": false,
+                            "checked": true,
                             "name": ""
                         },
                         {
                             "match": "find.qq.com|idqqimg.com/qqfind/",
-                            "action": "172.23.136.84",
+                            "action": "10.12.23.156",
                             "leaf": true,
                             "id": 12,
-                            "checked": false,
+                            "checked": true,
                             "name": ""
                         }
                     ],
                     "id": 10,
-                    "checked": false,
+                    "checked": true,
                     "match": "",
                     "action": ""
                 }
             ],
             "id": 1,
-            "checked": false,
+            "checked": true,
             "action": ""
         },
         {

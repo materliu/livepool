@@ -18,9 +18,7 @@
         "http-proxy": "*",
         "graceful-fs": "*",
         "request": "*",
-        "http-proxy-agent": "*",
-        "https-proxy-agent": "*",
-        "socks-proxy-agent": "*"
+        "http-proxy-agent": "*"
     },
     "repository": {
         "type": "git",
