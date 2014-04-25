@@ -6,5 +6,5 @@ module.exports = {
     index: 'index.html',
     tempDir: path.join(process.cwd(), 'tmp/http/'),
     siteDir: path.join(process.cwd(), 'tmp/sites/'),
-    proxy: 'http://proxy.tencent.com:8080'
+    // proxy: 'http://proxy.tencent.com:8080'
 };
