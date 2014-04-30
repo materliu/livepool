@@ -12,14 +12,6 @@ module.exports={
                     "type": "group",
                     "children": [
                         {
-                            "match": "find.qq.com/index.html",
-                            "action": "./__index.html",
-                            "leaf": true,
-                            "id": 3,
-                            "checked": true,
-                            "name": ""
-                        },
-                        {
                             "match": "find.qq.com/js/find.all.js",
                             "action": "./tools/find.all.qzmin",
                             "leaf": true,
@@ -50,12 +42,21 @@ module.exports={
                             "id": 7,
                             "checked": true,
                             "name": ""
+                        },
+                        {
+                            "match": "find.qq.com/index.html",
+                            "action": "./__index.html",
+                            "leaf": true,
+                            "id": 3,
+                            "checked": true,
+                            "name": ""
                         }
                     ],
                     "id": 2,
                     "checked": false,
                     "match": "",
-                    "action": ""
+                    "action": "",
+                    "enableDrag": false
                 },
                 {
                     "name": "router",
@@ -81,7 +82,8 @@ module.exports={
                     "id": 10,
                     "checked": true,
                     "match": "",
-                    "action": ""
+                    "action": "",
+                    "enableDrag": false
                 }
             ],
             "id": 1,
@@ -149,7 +151,8 @@ module.exports={
                     "id": 14,
                     "checked": false,
                     "match": "",
-                    "action": ""
+                    "action": "",
+                    "enableDrag": false
                 },
                 {
                     "name": "router",
@@ -175,7 +178,8 @@ module.exports={
                     "id": 24,
                     "checked": false,
                     "match": "",
-                    "action": ""
+                    "action": "",
+                    "enableDrag": false
                 }
             ],
             "id": 13,
