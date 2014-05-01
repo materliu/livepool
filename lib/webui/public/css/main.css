@@ -75,3 +75,6 @@ body {
 .jsoneditor .frame button {
     border: none;
 }
+#global-zeroclipboard-html-bridge {
+    z-index: 999999 !important;
+}
