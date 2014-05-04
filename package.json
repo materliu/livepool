@@ -40,12 +40,10 @@
     },
     "window": {
         "title": "livepool ui",
-        "icon": "link.png",
         "toolbar": false,
         "frame": true,
         "width": 960,
         "height": 600,
-        "position": "mouse",
         "min_width": 400,
         "min_height": 200
     },
