@@ -1,2 +1,3 @@
 #!/usr/bin/env node
- // TODO
+
+require('../livepool.js');

@@ -4,7 +4,7 @@
     "description": "debugging proxy for web developers base on NodeJS",
     "keywords": ["proxy", "debug", "web", "develop", "reload", "fiddler"],
     "maintainers": [{
-        "name": "rehorn",
+        "name": "rehornchen@tencent.com",
         "web": "https://github.com/rehorn"
     }],
     "homepage": "https://github.com/rehorn/livepool",
@@ -31,7 +31,7 @@
         "url": "https://github.com/rehorn/livepool/issues"
     },
     "bin": {
-        "mod": "./bin/livepool"
+        "livepool": "./bin/livepool"
     },
     "preferGlobal": true,
     "main": "node-webkit.html",
