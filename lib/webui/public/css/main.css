@@ -7,6 +7,10 @@ body {
 #mainContainer-body, #resPanel-body, #reqPanel-body {
     border: 0 !important;
 }
+/*hack*/
+ .x-grid-row .x-grid-cell, .x-btn-default-toolbar-small .x-btn-inner, .x-column-header, .x-toolbar .x-toolbar-text, .x-tab button {
+    font-family: tahoma, arial, sans-serif, 'Helvetica Neue', Helvetica, 'Microsoft YaHei UI', 'Microsoft YaHei' !important;
+}
 .x-grid-record-gray {
     /*background: #FF0000;*/
     color: #888;
