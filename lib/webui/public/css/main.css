@@ -16,7 +16,8 @@ body {
     color: #888;
 }
 .x-grid-record-green {
-    color: #2ECC40;
+    /*color: #2ECC40;*/
+    color: #228B22;
 }
 .x-grid-record-red {
     color: #FF4136;
@@ -29,6 +30,9 @@ body {
 }
 .x-grid-record-navy {
     color: #001F3F;
+}
+.x-grid-record-olive {
+    color: #800080;
 }
 .x-grid-record-blue2 {
     color: #fff;
@@ -47,9 +51,6 @@ body {
 }
 .x-grid-record-gray2 td {
     background: #dddddd !important;
-}
-.x-grid-record-olive {
-    color: #3D9970;
 }
 .x-action-col-icon {
     height: 16px;
