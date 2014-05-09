@@ -17,7 +17,7 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "039e2788-a1b5-1b9f-ab7d-f78abcd0a69d"
+                            "id": "a611fd05-ebe8-e83b-7212-73473eb8e033"
                         },
                         {
                             "match": "find.qq.com/css/comp.css",
@@ -25,7 +25,7 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "aeb067c6-32e7-7777-9661-bec871e28273"
+                            "id": "b75e98ad-9988-a722-6104-bb477daa4c90"
                         },
                         {
                             "match": "find.qq.com/js/catalog.js",
@@ -33,7 +33,7 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "8744208c-4318-83f2-562e-06d92cd00c1f"
+                            "id": "8e38126c-1cc0-29e5-94a9-e8954e26bc2f"
                         },
                         {
                             "match": "find.qq.com/|*.idqqimg.com/qqfind/",
@@ -41,7 +41,7 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "e405b30d-d948-5325-ea79-1d6e5b4d622a"
+                            "id": "6fafab19-8c7a-8a66-0897-5aa613744b02"
                         },
                         {
                             "match": "find.qq.com/index.html",
@@ -49,14 +49,14 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "10c7d1a6-b2e8-5f71-72b3-d1bfc085325d"
+                            "id": "77cd1499-9a17-de66-ffc9-e0cc60a4665e"
                         }
                     ],
                     "checked": false,
                     "match": "",
                     "action": "",
                     "enableDrag": false,
-                    "id": "d9264cce-a9d8-7f09-4965-03406f1d9e84"
+                    "id": "9d94c6c9-8ef2-5e86-7791-d0897617f62e"
                 },
                 {
                     "name": "router",
@@ -68,7 +68,7 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "fff7d845-8aab-4907-4dca-b34f997c0873"
+                            "id": "35e14aaf-ce33-0c65-2a7b-62edbb4524fa"
                         },
                         {
                             "match": "find.qq.com|idqqimg.com/qqfind/",
@@ -76,19 +76,19 @@ module.exports={
                             "leaf": true,
                             "checked": true,
                             "name": "",
-                            "id": "a2c59c79-c1f1-65b8-5345-b661d4b0dfb6"
+                            "id": "c8a84960-35f9-9cfb-4df1-1bbaf7acb039"
                         }
                     ],
                     "checked": true,
                     "match": "",
                     "action": "",
                     "enableDrag": false,
-                    "id": "bcb2006b-e677-9437-53f6-e1b1bcf3098f"
+                    "id": "c86b0045-8d0c-da8d-2e12-d99fc941dd54"
                 }
             ],
             "checked": true,
             "action": "",
-            "id": "2ee68ecb-e327-f15f-d06c-e1798ffa7ee9"
+            "id": "2a705271-5fa8-d785-db66-354abeaec96a"
         },
         {
             "name": "project2",
@@ -105,7 +105,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "db4ffed2-0157-90ce-869d-3b0cbb936e56"
+                            "id": "d583042f-ceab-fcf5-fe15-fee4a4c9c0b2"
                         },
                         {
                             "match": "find.qq.com/js/find.all.js",
@@ -113,7 +113,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "31d0ae96-8a6f-b833-8517-766b414cee87"
+                            "id": "8805f02e-ac71-178f-a293-e545281af556"
                         },
                         {
                             "match": "find.qq.com/js/find.combo.js",
@@ -121,7 +121,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "71ea7191-fb04-3ef5-cc71-0d8670f0b3a4"
+                            "id": "9dddd47a-357d-7829-7fec-09a4945c2bb5"
                         },
                         {
                             "match": "find.qq.com/css/comp.css",
@@ -129,7 +129,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "08f0132f-1ac7-9777-6fa4-7dd9d55e4db7"
+                            "id": "4b59d260-75d9-ad31-a1e6-20007701039e"
                         },
                         {
                             "match": "find.qq.com/js/catalog.js",
@@ -137,7 +137,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "232cc734-fafa-695d-e715-661d2daa36ab"
+                            "id": "9f9a9e84-ff4e-bf15-a7ec-1743be11659f"
                         },
                         {
                             "match": "find.qq.com/|*.idqqimg.com/qqfind/",
@@ -145,14 +145,14 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "a1c53684-9afe-08ff-e1c6-29c8b5997066"
+                            "id": "dccd5242-b249-d4d6-3b46-eb81771a5eb3"
                         }
                     ],
                     "checked": false,
                     "match": "",
                     "action": "",
                     "enableDrag": false,
-                    "id": "ce10f004-b0d4-7d6a-e2a7-bf1e6fe64f4d"
+                    "id": "cdb6c3c2-af93-bae6-3a44-5f97903ed38c"
                 },
                 {
                     "name": "router",
@@ -164,7 +164,7 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "f6fd1a9a-d9b2-4bbb-fccb-5930da4dca74"
+                            "id": "6f08c12f-fa2d-9e67-bb30-ef885ff87552"
                         },
                         {
                             "match": "find.qq.com|idqqimg.com/qqfind/",
@@ -172,19 +172,19 @@ module.exports={
                             "leaf": true,
                             "checked": false,
                             "name": "",
-                            "id": "414effc8-49ee-2487-62f3-c54873443864"
+                            "id": "012a8530-5f8b-7672-dcec-1f63af21e791"
                         }
                     ],
                     "checked": false,
                     "match": "",
                     "action": "",
                     "enableDrag": false,
-                    "id": "7a0f1280-aab5-54e5-4427-b729ed795c50"
+                    "id": "a3bdec54-ec42-1f5e-ef1e-dbe6b6d73ab8"
                 }
             ],
             "checked": false,
             "action": "",
-            "id": "2be63459-0234-504f-416c-be2de6c34777"
+            "id": "5fd6d6ee-73ae-841c-8ae4-ab1770609551"
         }
     ]
 }
