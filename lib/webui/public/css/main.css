@@ -57,6 +57,9 @@ body {
     width: 16px;
     margin-right: 4px;
 }
+.x-tree-panel .x-grid-cell-inner {
+    cursor: default;
+}
 .p-hide-action-col-icon {
     height: 16px;
     width: 16px;
