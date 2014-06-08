@@ -1,0 +1,75 @@
+#!/bin/sh
+#modify from
+#https://github.com/mschrag/speedlimit
+USER=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get username)
+PASS=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get password)
+
+if [ $USER = '' ] && [ $PASS = '' ]; then
+    ./auth/Authenticate.app/Contents/MacOS/Authenticate
+    USER=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get username)
+    PASS=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get password)
+fi
+
+ACTION=$1
+shift
+
+if [[ "$ACTION" == "start" ]]; then
+	if [[ $# -lt 4 ]]; then
+		echo "Usage: $0 start [kps] [delay] [plr] [plr-suppress] [comma-separated hosts|\"any\"] [port1] <port2> .. <portn>"
+	fi
+	SPEED="$1Kbit/s"
+	shift
+	
+	DELAY="$1ms"
+	shift
+	
+	PLR="$1"
+	shift
+	
+	PLR_SUPPRESS="$1"
+	shift
+	
+	if [[ "$PLR_SUPPRESS" == "yes" ]]; then
+		PLR_SUPPRESS="noerror"
+	else
+		PLR_SUPPRESS=""
+	fi
+	
+	HOSTS="${1//,/ }"
+	if [[ "$HOSTS" == "" ]]; then
+		HOSTS="any"
+	fi
+	shift
+	
+	PIPE=100
+	while [[ -n "$1" ]]; do
+		PORT=$1
+		shift
+
+		for HOST in ${HOSTS[@]}; do
+			HOST=${HOST// /}
+			echo $PASS | sudo -S sh -c "/sbin/ipfw add pipe $PIPE ip from $HOST $PORT to me"
+			#/sbin/ipfw add pipe $PIPE ip from any $PORT to $HOST out
+			echo $PASS | sudo -S sh -c "/sbin/ipfw pipe $((PIPE ++)) config $PLR_SUPPRESS bw $SPEED queue 64Kbytes delay $DELAY plr $PLR"
+			echo $PASS | sudo -S sh -c "/sbin/ipfw add pipe $PIPE ip from me $PORT to $HOST"
+			#/sbin/ipfw add pipe $PIPE ip from any $PORT to $HOST in
+			echo $PASS | sudo -S sh -c "/sbin/ipfw pipe $((PIPE ++)) config $PLR_SUPPRESS bw $SPEED queue 64Kbytes delay $DELAY plr $PLR"
+		done
+	done
+elif [[ "$ACTION" == "stop" ]]; then
+	if [[ $# -lt 2 ]]; then
+		echo "Usage: $0 stop [rule1] [rule2] <rule3> .. <rulen>"
+		exit 1
+	fi
+	
+	while [[ -n "$1" ]]; do
+		RULE=$1
+		shift
+		echo $PASS | sudo -S sh -c "/sbin/ipfw delete $RULE"
+	done
+elif [[ "$ACTION" == "list" ]]; then
+	echo $PASS | sudo -S sh -c "/sbin/ipfw list $*"
+else
+	echo "Usage: $0 start/stop/list"
+	exit 1
+fi

@@ -4,9 +4,10 @@ module.exports={
     "disablePool": false,
     "disableCache": false,
     "autoScroll": false,
-    "netSimulate": "10m",
+    "speedLimit": "Disabled",
     "showSession": "200",
     "layout": "Wide",
     "tabSetting": "Pool,Inspectors,Composer,Filter,Log",
-    "sessionColumns": "Protocol,Method,Host,Path,Caching,ContentType,Body,Time"
+    "sessionColumns": "Protocol,Method,Host,Path,Caching,ContentType,Body,Time",
+    "platform": "darwin"
 }

@@ -12,6 +12,13 @@ module.exports={
                     "type": "group",
                     "children": [
                         {
+                            "id": "1746f2e5-31ab-5328-4452-c5d19da65f8a",
+                            "match": "find.qq.com/js/delay.js",
+                            "action": "delay(5)",
+                            "checked": true,
+                            "leaf": true
+                        },
+                        {
                             "match": "find.qq.com/js/find.all.js",
                             "action": "./tools/find.all.qzmin",
                             "leaf": true,
@@ -52,7 +59,7 @@ module.exports={
                             "id": "77cd1499-9a17-de66-ffc9-e0cc60a4665e"
                         }
                     ],
-                    "checked": false,
+                    "checked": true,
                     "match": "",
                     "action": "",
                     "enableDrag": false,
@@ -79,7 +86,7 @@ module.exports={
                             "id": "c8a84960-35f9-9cfb-4df1-1bbaf7acb039"
                         }
                     ],
-                    "checked": true,
+                    "checked": false,
                     "match": "",
                     "action": "",
                     "enableDrag": false,

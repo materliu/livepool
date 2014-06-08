@@ -24,6 +24,8 @@ function run(){
 
 if [ $USER = '' ] && [ $PASS = '' ]; then
     ./auth/Authenticate.app/Contents/MacOS/Authenticate
+    USER=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get username)
+    PASS=$(./auth/Authenticate.app/Contents/MacOS/Authenticate -get password)
 fi
 
 run $*
