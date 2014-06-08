@@ -47,10 +47,10 @@ body {
     background: #bb427d !important;
 }
 .x-grid-record-gray2 {
-    color: #fff;
+    /*color: #fff;*/
 }
 .x-grid-record-gray2 td {
-    background: #dddddd !important;
+    background: #ececec !important;
 }
 .x-action-col-icon {
     height: 16px;
